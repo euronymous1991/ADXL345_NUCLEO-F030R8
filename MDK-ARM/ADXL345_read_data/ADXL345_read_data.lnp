@@ -1,0 +1,26 @@
+--cpu Cortex-M0
+"adxl345_read_data\startup_stm32f030x8.o"
+"adxl345_read_data\main.o"
+"adxl345_read_data\stm32f0xx_it.o"
+"adxl345_read_data\stm32f0xx_hal_msp.o"
+"adxl345_read_data\stm32f0xx_hal_i2c.o"
+"adxl345_read_data\stm32f0xx_hal_i2c_ex.o"
+"adxl345_read_data\stm32f0xx_hal_rcc.o"
+"adxl345_read_data\stm32f0xx_hal_rcc_ex.o"
+"adxl345_read_data\stm32f0xx_hal.o"
+"adxl345_read_data\stm32f0xx_hal_gpio.o"
+"adxl345_read_data\stm32f0xx_hal_dma.o"
+"adxl345_read_data\stm32f0xx_hal_cortex.o"
+"adxl345_read_data\stm32f0xx_hal_pwr.o"
+"adxl345_read_data\stm32f0xx_hal_pwr_ex.o"
+"adxl345_read_data\stm32f0xx_hal_flash.o"
+"adxl345_read_data\stm32f0xx_hal_flash_ex.o"
+"adxl345_read_data\stm32f0xx_hal_exti.o"
+"adxl345_read_data\stm32f0xx_hal_tim.o"
+"adxl345_read_data\stm32f0xx_hal_tim_ex.o"
+"adxl345_read_data\system_stm32f0xx.o"
+"adxl345_read_data\adxl345.o"
+--library_type=microlib --strict --scatter "ADXL345_read_data\ADXL345_read_data.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "ADXL345_read_data.map" -o ADXL345_read_data\ADXL345_read_data.axf

@@ -1,0 +1,1 @@
+adxl345_read_data\startup_stm32f030x8.o: startup_stm32f030x8.s
